@@ -19,8 +19,6 @@ class Stack:
     return value
 
   def len(self):
-      if self.size > 0:
-          return self.size
-      else: 
-        return 0
+    return self.size
+
     
